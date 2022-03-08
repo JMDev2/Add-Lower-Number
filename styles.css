@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    display: grid;
+    min-height: 140%;
+    place-items: center;
+    background-color: hotpink ;
+}
+.card{
+    height: 300px;
+    width: 420px;
+    box-shadow: 10px 10px 50px rgb(198, 190, 193);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectname{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+#counter{
+    font-size: 2rem;
+    margin-bottom: 0 2rem;
+    color: white;
+
+}
+.next, .prev{
+    font-size: 15px;
+    outline: none;
+    padding: 0.7rem 0.7rem;
+    margin: 0 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+
+}
+.prev:hover 
+{background-color: #3e8e41}
+.next:hover 
+{background-color: #3e8e41}
+
